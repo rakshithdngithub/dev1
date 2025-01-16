@@ -1,0 +1,8 @@
+export ZONE=
+
+
+curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Managing%20Deployments%20Using%20Kubernetes%20Engine/quicklabgsp053.sh
+
+sudo chmod +x quicklabgsp053.sh
+
+./quicklabgsp053.sh
