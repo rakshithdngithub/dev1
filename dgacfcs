@@ -6,3 +6,14 @@ curl -LO raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Deploying%20
 sudo chmod +x quicklab.sh
 
 ./quicklab.sh
+
+//error on task 5 follow this
+//i dint change region
+//go to workloads and u can see new-nginx, delete the new-nginx
+//then follow instruction in task 5
+
+ln -s ~/training-data-analyst/courses/ak8s/v1.1 ~/ak8s
+
+cd ~/ak8s/GKE_Shell/
+
+kubectl apply -f ./new-nginx-pod.yaml
