@@ -6,3 +6,27 @@ curl -LO raw.githubusercontent.com/gcpsolution99/GCP-solution/refs/heads/main/GS
 sudo chmod +x GSP1076.sh
 
 ./GSP1076.sh
+
+//after this 2 task completed
+//Click Navigation menu under the Cloud Shell Editornavigation menu icon View > Command Palette...
+//and type Run on Kubernetes and select Cloud Code: Run on Kubernetes.
+//cloud-code-samples/java/java-hello-world/skaffold.yaml 
+//Yes
+//Enter the address of an image repository
+
+
+//this is unique
+//europe-west1-docker.pkg.dev/qwiklabs-gcp-02-1453c55e818c/container-dev-repo
+//press ctrl + click on http://localhost:4503
+
+//Cloud Shell Editor navigation menu icon View > Command Palette... 
+
+//**remeber to remove > symbol and paste src/main/java/cloudcode/helloworld/web
+//in row 20 from "It's running!" to "It's updated!"
+//press ctrl + click on http://localhost:4503
+
+//in terminal
+gcloud artifacts repositories create container-dev-java-repo \
+    --repository-format=maven \
+    --location=europe-west1 \
+    --description="Java package repository for Container Dev Workshop"
